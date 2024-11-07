@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body class="h-screen w-screen">
+  <!-- Header  -->
+   <header class="container mx-auto py-4 h-full px-4 font-Poppins">
+    <!-- navbar -->
+      <nav class="w-full flex items-center justify-between">
+          <div class="logo z-40 ">
+              <img src="./images/logo.svg" class="w-24 md:w-32" alt="Logo">
+          </div>
+          <ul class="hidden md:flex items-center justify-between gap-4 text-xl ">
+            <li><a class="text-dark md:text-ternery hover:text-white active:text-white" href="#">Home</a></li>
+            <li><a class="text-dark md:text-ternery hover:text-white active:text-white" href="#">About US</a></li>
+            <li><a class="text-dark md:text-ternery hover:text-white active:text-white" href="#">Offerings</a></li>
+            <li><a class="text-dark md:text-ternery hover:text-white active:text-white" href="#">Contact US</a></li>
+          </ul>
+          <ul id="mobile-nav" class="hidden z-10 w-full pt-28 px-4 gap-8 h-screen absolute top-0 left-0 bg-primary text-xl font-bold flex flex-col items-center ">
+            <li><a class="text-dark " href="#">Home</a></li>
+            <li><a class="text-dark " href="#">About US</a></li>
+            <li><a class="text-dark " href="#">Offerings</a></li>
+            <li><a class="text-dark " href="#">Contact US</a></li>
+          </ul>
+          <div class="flex items-center justify-between gap-4 z-40">
+            <a href="#" class="bg-primary px-3 py-1 border-primary rounded-full font-bold text-dark hover:bg-secondary ">Book Now</a>
+            <div class="md:hidden">
+                <i id="menu-btn" class="ri-menu-fold-line"></i>
+            </div>
+          </div>
+      </nav>
+    <!-- /navbar -->
+
+     <!-- Hero  -->
+      <main class="flex items-start justify-between w-full h-[88vh] ">
+        <div class="flex flex-col  items-start flex-1 justify-start gap-6   h-full pt-36 px-5 ">
+              <h3 class="text-3xl font-extralight text-ternery">Experience the</h3>
+              <h1 class="text-5xl font-bold ">Beauty Redefined</h1>
+              <p class="text-lg font-thin text-ternery">Indulge in top-notch beauty services with <br>
+                our expert team for a truly transformative <br>
+                experience.
+                </p>
+                <div class="flex items-center justify-center gap-4">
+                    <a class="border border-secondary px-3 py-2 rounded-full bg-primary text-dark font-bold hover:bg-white" href="#">Book Appointment</a>
+                    <a class="border border-secondary px-3 py-2 rounded-full font-medium text-ternery hover:bg-primary hover:text-dark" href="#">Training Enquiry</a>
+                </div>
+        </div>
+        <div class="flex items-center flex-1 justify-center w-full h-full">
+          <img src="./images/Right.svg" class="w-64" alt="">
+        </div>
+      </main>
+     <!-- /Hero  -->
+
+     <!-- Quote Section  -->
+        <div>
+
+        </div>
+     <!-- /Quote Section  -->
+   </header>
+  <!-- / Header   -->
+   <script src="script.js"></script>
+</body>
+</html>
